@@ -20,6 +20,8 @@ defmodule PhxtesterWeb.Router do
     get "/", PageController, :home
     get "/blog", PageController, :blog
     get "/blog/:id", PageController, :show_blog_post
+    get "/terms", PageController, :terms
+    get "/privacy", PageController, :privacy
   end
 
   # Other scopes may use custom stacks.

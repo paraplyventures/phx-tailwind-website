@@ -51,7 +51,7 @@ defmodule Phxtester.MixProject do
       # Blog
       {:nimble_publisher, "~> 1.0"},
       {:makeup_elixir, ">= 0.0.0"},
-      {:makeup_erlang, ">= 0.0.0"},
+      {:makeup_erlang, ">= 0.0.0"}
     ]
   end
 

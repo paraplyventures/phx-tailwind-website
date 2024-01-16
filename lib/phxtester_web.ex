@@ -63,11 +63,11 @@ defmodule PhxtesterWeb do
       use Phoenix.Component, global_prefixes: ~w(x-)
 
       use Phoenix.View,
-          root: "lib/phxtester_web/templates",
-          namespace: PhxtesterWeb
+        root: "lib/phxtester_web/templates",
+        namespace: PhxtesterWeb
 
       import Phoenix.Controller,
-             only: [get_csrf_token: 0, view_module: 1, view_template: 1]
+        only: [get_csrf_token: 0, view_module: 1, view_template: 1]
 
       unquote(html_helpers())
     end
