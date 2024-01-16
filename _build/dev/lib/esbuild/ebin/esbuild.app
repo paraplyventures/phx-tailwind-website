@@ -1,7 +1,5 @@
 {application,esbuild,
-             [{optional_applications,[inets,ssl]},
-              {applications,[kernel,stdlib,elixir,logger,inets,ssl,castore,
-                             jason]},
+             [{applications,[kernel,stdlib,elixir,logger,castore,jason]},
               {description,"Mix tasks for installing and invoking esbuild"},
               {modules,['Elixir.Esbuild','Elixir.Esbuild.NpmRegistry',
                         'Elixir.Mix.Tasks.Esbuild',

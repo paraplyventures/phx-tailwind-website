@@ -1,6 +1,5 @@
 {application,tailwind,
-             [{optional_applications,[inets,ssl]},
-              {applications,[kernel,stdlib,elixir,logger,inets,ssl,castore]},
+             [{applications,[kernel,stdlib,elixir,logger,castore]},
               {description,"Mix tasks for installing and invoking tailwind"},
               {modules,['Elixir.Mix.Tasks.Tailwind',
                         'Elixir.Mix.Tasks.Tailwind.Install',
