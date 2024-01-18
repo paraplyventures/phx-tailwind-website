@@ -954,12 +954,20 @@ select {
   margin-bottom: -1.5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-\[-12\%\] {
   margin-bottom: -12%;
 }
 
 .ml-1 {
   margin-left: 0.25rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
 }
 
 .ml-2 {
@@ -1032,18 +1040,6 @@ select {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .line-clamp-3 {
@@ -1661,16 +1657,6 @@ select {
   padding-bottom: 1.5rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
 .pb-24 {
   padding-bottom: 6rem;
 }
@@ -1699,12 +1685,12 @@ select {
   padding-top: 4rem;
 }
 
-.pt-\[7\%\] {
-  padding-top: 7%;
-}
-
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pt-\[7\%\] {
+  padding-top: 7%;
 }
 
 .text-left {
@@ -1748,19 +1734,14 @@ select {
   line-height: 1.25rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -2302,17 +2283,17 @@ html {
     padding-bottom: 8rem;
   }
 
-  .sm\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
   .sm\:pb-32 {
     padding-bottom: 8rem;
   }
 
   .sm\:text-center {
     text-align: center;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .sm\:text-4xl {
@@ -2333,11 +2314,6 @@ html {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .sm\:leading-6 {
@@ -2478,11 +2454,6 @@ html {
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .lg\:py-40 {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
   }
 
   .lg\:pt-8 {
