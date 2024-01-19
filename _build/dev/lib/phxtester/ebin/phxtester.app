@@ -1,7 +1,6 @@
 {application,phxtester,
              [{compile_env,[{phxtester,['Elixir.PhxtesterWeb.Gettext'],error},
                             {phxtester,[dev_routes],{ok,true}}]},
-              {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,logger,runtime_tools,
                              phoenix,phoenix_html,phoenix_live_reload,
                              phoenix_live_view,phoenix_live_dashboard,esbuild,

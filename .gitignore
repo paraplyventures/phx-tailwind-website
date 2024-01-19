@@ -1,0 +1,7 @@
+_build
+deps
+.elixir_ls
+/_build/
+/deps/
+/priv/static/
+.tool-versions

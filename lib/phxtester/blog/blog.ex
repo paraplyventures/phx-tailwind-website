@@ -6,10 +6,10 @@ defmodule Phxtester.Blog do
   end
 
   use NimblePublisher,
-      build: Post,
-      from: Application.app_dir(:phxtester, "priv/posts/**/*.md"),
-      as: :posts,
-      highlighters: [:makeup_elixir, :makeup_erlang]
+    build: Post,
+    from: Application.app_dir(:phxtester, "priv/posts/**/*.md"),
+    as: :posts,
+    highlighters: [:makeup_elixir, :makeup_erlang]
 
   # The @posts variable is first defined by NimblePublisher.
   # Let's further modify it by sorting all posts by descending date.
